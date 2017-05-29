@@ -1,6 +1,6 @@
 all: auth 
 
 auth:
-	sudo pip3 install gnupg
+	pip3 install gnupg
 
 .PHONY: all auth
