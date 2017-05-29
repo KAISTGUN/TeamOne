@@ -8,8 +8,8 @@ BUILDDIR = build
 all: packages $(BUILDDIR) $(BUILDDIR)/sla_checker
 
 packages:
-	sudo apt-get -y install libgpgme11-dev
-	sudo apt-get -y install libssl-dev
+	apt-get -y install libgpgme11-dev
+	apt-get -y install libssl-dev
 
 $(BUILDDIR):
 	mkdir -p $@
